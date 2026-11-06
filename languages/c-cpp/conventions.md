@@ -26,7 +26,7 @@
 - Use descriptive names without unnecessary abbreviations.
 - Prefix related APIs consistently when useful, especially in C.
 - Include units in identifiers when relevant, such as `_ms`, `_us`, `_rad`, `_deg`.
-
+- The _t suffix is reserved for C typedefs according to project conventions. Do not use _t for C++ classes, structs, or enums; use PascalCase instead.
 ## 3. Formatting
 
 - Use the repository `.clang-format` configuration.
